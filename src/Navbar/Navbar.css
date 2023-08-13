@@ -1,0 +1,44 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    height: 75px;
+    background-color: rgb(198, 161, 161);
+    color: azure;
+    padding: 0 20px; 
+}
+
+.logo {
+    font-size: 30px;
+   
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center; 
+}
+
+.Home,
+.todolist,
+.about,
+.contact,
+.signup {
+    text-decoration: none;
+    color: azure;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.signup{
+    border: 1px solid rgb(224, 229, 235);
+    border-radius: 5px;
+}

@@ -1,0 +1,83 @@
+/* Sample CSS for Home Component */
+.header__container {
+
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 100px 0;
+  background-image: url('D:\My_All_Projects_React\project\apexproject\src\URLZenith.png'); /* Path to your image */
+  background-size: cover;
+  background-position: center;
+  color: black;
+}
+
+.header__content {
+  flex: 1;
+  padding: 0 50px;
+}
+
+.sub__header {
+  text-align: left;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-top: 20px;
+}
+
+.section__subtitle {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.action__btns {
+  margin-top: 30px;
+}
+
+.btn {
+  background-color:  rgb(198, 161, 161);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color:  rgb(11, 9, 9);
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .header__container {
+    padding: 50px 0;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header__content {
+    padding: 0 20px;
+  }
+
+  .sub__header {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 28px;
+    margin-top: 15px;
+  }
+
+  .section__subtitle {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+
+  .btn {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
