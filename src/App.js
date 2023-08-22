@@ -6,6 +6,7 @@ import Contact from './components/Contact';
 import About from './components/About';
 import SignUp from './components/Signup';
 import ToDoList from './components/ToDoList';
+import ContactUsPage from './components/ContactUSPage';
 
 
 
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/about" element={<About />} />
         {/* <Route path="/contact" element={<Contact />} /> */}
         <Route path="/signup" element={<SignUp />} />
+        <Route path="/ContactUsPage" element={<ContactUsPage />} />
       </Routes>
       <Contact/>
     </Router>

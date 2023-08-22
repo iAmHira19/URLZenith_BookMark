@@ -29,7 +29,8 @@
 .todolist,
 .about,
 .contact,
-.signup {
+.signup,
+.ContactUsPage {
     text-decoration: none;
     color: azure;
     font-size: 20px;

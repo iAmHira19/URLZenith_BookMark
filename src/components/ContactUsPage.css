@@ -1,0 +1,75 @@
+.contact-us-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: url('D:\My_All_Projects_React\project\apexproject\src\contactus.png') center/cover no-repeat;
+  padding: 20px;
+}
+
+.contact-container {
+  width: 100%;
+  max-width: 800px;
+  background-color: rgb(198, 161, 161);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-heading {
+  color: #f5f5f5;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.inner-box {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.confirmation-message {
+  font-size: 1.2rem;
+  color: #ec834f;
+  margin-top: 20px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.input-group input,
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: vertical;
+  height: 120px;
+}
+
+button {
+  background-color: rgb(198, 161, 161);
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: rgb(231, 126, 126);
+}
